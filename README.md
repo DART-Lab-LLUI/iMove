@@ -6,7 +6,7 @@ Have a GitHub account? -> https://github.com/DART-Lab-LLUI/iMove/issues/1
 
 No Github account? -> https://docs.google.com/spreadsheets/d/17cb_J4rFuHdQlNzDEIPqulMuBZ8IQAajLwhQC7_feMg/edit?gid=1386834576#gid=1386834576
 
-
+---
 iMove (intrumented Movements) is a plug and play low budget open source biomechnics and movement analysis tool which allows recording and processing on end consumer devices using off the shelf webcams, phones , IMUs and a computer. 
 
 Recording
