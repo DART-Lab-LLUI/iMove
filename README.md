@@ -14,6 +14,9 @@ Recording
 
 Processing
 
+Processing atm is based on Pose2Sim https://github.com/perfanalytics/pose2sim
+Adding further algorithms is in developement.
+
 Results Visualization 
 
 
