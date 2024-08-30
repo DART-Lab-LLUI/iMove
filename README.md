@@ -4,6 +4,7 @@ iMove (intrumented Movements) is a plug and play low budget open source biomechn
 
 Recording
 
+
 Processing
 
 Results Visualization 
