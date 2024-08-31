@@ -39,17 +39,38 @@ Please consider leaving your comments on [our discussion page](https://github.co
 
 ## Multi Camera Setup
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/921b6816-a2d6-4ef5-8f98-2ef9945b9a30" width="100%">
+    <img src="https://github.com/user-attachments/assets/921b6816-a2d6-4ef5-8f98-2ef9945b9a30" width="70%">
     <br>
     <sup>Auto detection of cameras, ID assignment, and configuration.</sup>
 </div>
 
 ## Recording
-## Synchronization
+### Recording Calibration
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f65e070b-cff1-43fe-9c5c-3be231cb2f13" width="70%">
+    <br>
+    <sup>Recording calibration videos while receiving feedback on how much of the field of view of each camera has been covered.</sup>
+</div>
+
+### Recording Movement
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/9b951888-af4f-435c-9f72-edb21186f574" width="70%">
+    <br>
+    <sup>Recording a drinking task with live preview of the cameras and the IMU sensor.</sup>
+</div>
+
 ## Calibration
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/be0684f3-a191-41de-b6c5-96c03bf9c6d7" width="70%">
+    <br>
+    <sup>Avoid recalibration by using the calibration data from previous sessions.</sup>
+</div>
+
+## Synchronization
+Synchronize lost-cost consumer-grade cameras to within 8ms of one another without any special hardware.
+![image](https://github.com/user-attachments/assets/ded8a0e5-f58d-4f67-87a9-a99f2b73a493)
+
+
 ## Movement Analysis
-
-
-
 https://github.com/user-attachments/assets/e0ab4f91-250c-4514-bdc6-1adda804de4e
 
