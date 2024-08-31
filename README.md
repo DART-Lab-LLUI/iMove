@@ -14,8 +14,13 @@
   
 </div>
 
+**iMove (intrumented Movement) is a free and open-source biomechnics and movement analysis tool using low-budget consumer-grade devices (webcams, IMUs, phones) for clinical use, scientific reasearch, and training.**
+
+
 # Feedback and Suggestions
 Please consider leaving your comments on [our discussion page](https://github.com/DART-Lab-LLUI/iMove/discussions/2). 
+
+
 
 # Core features
 ## IMU Sensor
