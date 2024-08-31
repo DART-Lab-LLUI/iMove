@@ -74,14 +74,25 @@ Reuse calibration across sessions and get a preview of the cameras that were use
 </div>
 
 ## Synchronization
-Synchronize lost-cost consumer-grade cameras to within 8ms of one another without any special hardware. 
+Synchronize low-cost consumer-grade cameras to within 8ms of one another without any special hardware. 
 
-![image](https://github.com/user-attachments/assets/0b2f962c-bab4-4369-a7cb-79be181d6c4d)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/0b2f962c-bab4-4369-a7cb-79be181d6c4d" width="70%">
+    <br>
+    <sup>Measuring multicam software synchronization.</sup>
+</div>
+
+<div align="center">
 
 https://github.com/user-attachments/assets/7c0ed8e0-5394-4b6b-85e1-4bf2e0631885
 
-![image](https://github.com/user-attachments/assets/ded8a0e5-f58d-4f67-87a9-a99f2b73a493)
+</div>
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ded8a0e5-f58d-4f67-87a9-a99f2b73a493" width="70%">
+    <br>
+    <sup>Example of out of phase frames.</sup>
+</div>
 
 
 ## Movement Analysis
