@@ -24,7 +24,26 @@ Please consider leaving your comments on [our discussion page](https://github.co
 
 # Core features
 ## IMU Sensor
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/fb52a710-6d59-4e5b-8689-45432c3ec5b1" width="70%">
+    <br>
+    <sup>Scanning for nearby bluetooth sensors and connecting to them.</sup>
+</div>
+
+## Subject and Session Management
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/42f4fcea-3fcf-4f42-99c4-82dc915441fb" width="70%">
+    <br>
+    <sup>BIDS-based subject and session management.</sup>
+</div>
+
 ## Multi Camera Setup
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/921b6816-a2d6-4ef5-8f98-2ef9945b9a30" width="100%">
+    <br>
+    <sup>Auto detection of cameras, ID assignment, and configuration.</sup>
+</div>
+
 ## Recording
 ## Synchronization
 ## Calibration
