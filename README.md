@@ -22,7 +22,7 @@ Please consider leaving your comments on [our discussion page](https://github.co
 
 
 # Core features
-iMove is written in Python and uses Qt6 QML for it's responsive, tablet friendly, and cross-platform user interface.  
+iMove is written in Python and uses Qt6 QML for it's responsive, tablet friendly, and cross-platform user interface. iMove stands on the shoulders of giants and employs other fantastic open-source software like FFmpeg, OpenCV, Anipose, and more. 
 
 ## IMU Sensor
 Detect and interface with IMU sensors (here [Movella DOT](https://www.movella.com/products/wearables/movella-dot)) using the bluetooth protocol. A plugin system to add support for other sensors is also underway.
@@ -91,10 +91,16 @@ https://github.com/user-attachments/assets/7c0ed8e0-5394-4b6b-85e1-4bf2e0631885
 <div align="center">
     <img src="https://github.com/user-attachments/assets/ded8a0e5-f58d-4f67-87a9-a99f2b73a493" width="70%">
     <br>
-    <sup>Example of out of phase frames.</sup>
+    <sup>Example of video frames form multiple cameras across time.</sup>
 </div>
 
 
 ## Movement Analysis
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/78515ad6-eab4-4a6b-8281-74779d226015" width="70%">
+    <br>
+    <sup>Example of video frames form multiple cameras across time.</sup>
+</div>
+
 https://github.com/user-attachments/assets/e0ab4f91-250c-4514-bdc6-1adda804de4e
 
