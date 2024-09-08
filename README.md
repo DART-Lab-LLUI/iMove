@@ -14,7 +14,7 @@
   
 </div>
 
-**iMove (intrumented Movement) is a free and open-source biomechnics and movement analysis tool using low-budget consumer-grade devices (webcams, IMUs, phones) for clinical use, scientific reasearch, and training.**
+**iMove (intrumented Movement) is a free and open-source biomechanics and movement analysis tool using low-budget consumer-grade devices (webcams, IMUs, phones) for clinical use, scientific reasearch, and training.**
 
 
 # Feedback and Suggestions
