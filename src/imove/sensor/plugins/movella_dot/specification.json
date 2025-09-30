@@ -1,0 +1,126 @@
+{
+    "localName": "Xsens DOT",
+    "configuration": {
+        "uuid": "15171000-4947-11e9-8646-d663bd873d93",
+        "characteristics": {
+            "information": {
+                "uuid": "15171001-4947-11e9-8646-d663bd873d93"
+            },
+            "control": {
+                "uuid": "15171002-4947-11e9-8646-d663bd873d93"
+            },
+            "report": {
+                "uuid": "15171004-4947-11e9-8646-d663bd873d93",
+                "status": {
+                    "0": "successful",
+                    "1": "powerOff",
+                    "2": "deviceBusy",
+                    "3": "illegalCommand",
+                    "4": "powerSaving",
+                    "5": "buttonCallback"
+                }
+            }
+        }
+    },
+    "measurement": {
+        "uuid": "15172000-4947-11e9-8646-d663bd873d93",
+        "payloadCharacteristic": {
+            "customMode5": "measurementLongPayload",
+            "extendedQuaternion": "measurementMediumPayload",
+            "completeQuaternion": "measurementMediumPayload",
+            "extendedEuler": "measurementMediumPayload",
+            "completeEuler": "measurementMediumPayload",
+            "deltaQuantitiesWithMag": "measurementMediumPayload",
+            "deltaQuantities": "measurementMediumPayload",
+            "rateQuantitiesWithMag": "measurementMediumPayload",
+            "rateQuantities": "measurementMediumPayload",
+            "customMode1": "measurementMediumPayload",
+            "customMode2": "measurementMediumPayload",
+            "customMode3": "measurementMediumPayload",
+            "orientationEuler": "measurementShortPayload",
+            "orientationQuaternion": "measurementShortPayload",
+            "freeAcceleration": "measurementShortPayload"
+        },
+        "characteristics": {
+            "control": {
+                "uuid": "15172001-4947-11e9-8646-d663bd873d93",
+                "type": {
+                    "measurement": 1
+                },
+                "action": {
+                    "stop": 0,
+                    "start": 1
+                }
+            },
+            "measurementLongPayload": {
+                "uuid": "15172002-4947-11e9-8646-d663bd873d93",
+                "payload": {
+                    "customMode5": 26
+                }
+            },
+            "measurementMediumPayload": {
+                "uuid": "15172003-4947-11e9-8646-d663bd873d93",
+                "payload": {
+                    "extendedQuaternion": 2,
+                    "completeQuaternion": 3,
+                    "extendedEuler": 7,
+                    "completeEuler": 16,
+                    "deltaQuantitiesWithMag": 18,
+                    "deltaQuantities": 19,
+                    "rateQuantitiesWithMag": 20,
+                    "rateQuantities": 21,
+                    "customMode1": 22,
+                    "customMode2": 23,
+                    "customMode3": 24
+                }
+            },
+            "measurementShortPayload": {
+                "uuid": "15172004-4947-11e9-8646-d663bd873d93",
+                "payload": {
+                    "orientationEuler": 4,
+                    "orientationQuaternion": 5,
+                    "freeAcceleration": 6
+                }
+            },
+            "orientationResetControl": "15172006-4947-11e9-8646-d663bd873d93",
+            "orientationResetStatus": "15172007-4947-11e9-8646-d663bd873d93",
+            "orientationResetData": "15172008-4947-11e9-8646-d663bd873d93"
+        }
+    },
+    "battery": {
+        "uuid": "15173000-4947-11e9-8646-d663bd873d93",
+        "characteristics": {
+            "battery": {
+                "uuid": "15173001-4947-11e9-8646-d663bd873d93"
+            }
+        }
+    },
+    "dfu": {
+        "uuid": "15174000-4947-11e9-8646-d663bd873d93"
+    },
+    "crash": {
+        "uuid": "15176000-4947-11e9-8646-d663bd873d9",
+        "characteristics": {
+            "manager": {
+                "uuid": "15176001-4947-11e9-8646-d663bd873d9"
+            },
+            "information": {
+                "uuid": "15176002-4947-11e9-8646-d663bd873d9"
+            }
+        }
+    },
+    "message": {
+        "uuid": "15177000-4947-11e9-8646-d663bd873d93",
+        "characteristics": {
+            "control": {
+                "uuid": "15177001-4947-11e9-8646-d663bd873d93"
+            },
+            "acknowledge": {
+                "uuid": "15177002-4947-11e9-8646-d663bd873d93"
+            },
+            "notification": {
+                "uuid": "15177003-4947-11e9-8646-d663bd873d93"
+            }
+        }
+    }
+}

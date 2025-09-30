@@ -1,0 +1,4 @@
+module qml
+Main 1.0 Main.qml
+singleton Units 1.0 Units.qml
+

@@ -1,0 +1,3 @@
+include src/imove/qml/*.qml
+include src/imove/qml/qmldir
+include src/imove/*

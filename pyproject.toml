@@ -1,0 +1,58 @@
+[project]
+name = "iMove"
+version = "0.1.0"
+description = "iMove is a biomechanics tool for multi-camera and sensor data acquisition in clinical, research, and training settings."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.12"
+authors = [{ name = "Arash Sal Moslehian", email = "moslehian@proton.me" }]
+maintainers = [{ name = "Arash Sal Moslehian", email = "moslehian@proton.me"}]
+urls = { Homepage = "https://llui.org" }
+classifiers = [
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX :: Linux",
+]
+
+dependencies = [
+    "aniposelib==0.6.1",
+    "loguru==0.7.2",
+    "numpy==2.0.0",
+    "opencv-contrib-python==4.10.0.84",
+    "opencv-python==4.10.0.84",
+    "pandas==2.2.2",
+    "pyside6==6.7.2",
+    "pyside6-addons==6.7.2",
+    "pyside6-essentials==6.7.2",
+    "pyside6-stubs==6.4.2.0",
+    "pytz==2024.1",
+    "pyvirtualcam==0.11.1",
+    "pyyaml==6.0.1",
+    "scipy==1.14.0",
+    "toml==0.10.2",
+    "viztracer==0.16.3",
+    "pyhumps",
+]
+
+
+[tool.basedpyright]
+typeCheckingMode = "basic"
+reportAny = false
+reportUntypedFunctionDecorator = false
+include = ["src"]
+executionEnvironments = [ { root = "src" } ]
+
+
+[tool.basedpyright.defineConstant]
+USE_PYQT6 = false
+USE_PYQT5 = false
+USE_PYSIDE6 = true
+IS_QT5 = false
+IS_QT6 = true
+IS_PYQT = false
+IS_PYSIDE = true
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
