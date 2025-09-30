@@ -17,9 +17,20 @@
 **iMove (intrumented Movement) is a free and open-source biomechanics and movement analysis tool using low-budget consumer-grade devices (webcams, IMUs, phones) for clinical use, scientific research, and training.**
 
 
-# Feedback and Suggestions
-Please consider leaving your comments on [our discussion page](https://github.com/DART-Lab-LLUI/iMove/discussions/2). 
+This project provides **synchronized multi-camera acquisition**, with primary support for Linux systems.  
+Biomechanics analysis is not included yet.
 
+## Installation
+
+1. Install [uv](https://docs.astral.sh/uv/).  
+2. Run the following command to start the application:  
+```shell
+   uv run python -m imove
+```
+System dependencies:
+```shell
+ffmpeg
+```
 
 # Core features
 iMove is written in Python and uses Qt6 QML for it's responsive, tablet friendly, and cross-platform user interface. iMove stands on the shoulders of giants and employs other fantastic open-source software like FFmpeg, OpenCV, Anipose, and more. 
